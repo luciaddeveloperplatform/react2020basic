@@ -19,7 +19,7 @@ Simply modify the ./src/index.js with is the entry point, add more source files 
 ## React mode 
 If you prefer to use React simply rename the ./src/index.js to ./src/index.jsx and start coding.
 
-##Scripts:
+## Scripts:
 
 * npm start: Start development environment
 * npm run build: Build for production
