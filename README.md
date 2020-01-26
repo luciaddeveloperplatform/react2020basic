@@ -27,6 +27,7 @@ If you prefer to use React simply rename the ./src/index.js to ./src/index.jsx a
 ## Key functionality
 
 - Parses and bundle js (Javascript)  and jsx (React)
+- Development server with hot reload
 - Bundle code for production
 - Test server for production
 - This environment can be used as starting point for web applications or libraries
