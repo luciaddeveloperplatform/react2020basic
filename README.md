@@ -10,7 +10,8 @@
 This basic setup can deal with js, jsx, css, scss and multiple static files (eot|svg|ttf|woff|woff2|png|jpg)
 
 ## How to use.  
-Simply download or clone your this project from Github
+Simply download or clone this project from Github.
+Change directory to the location of the repository and install your npm dependencies.
 
 ## Javascript mode 
 Simply modify the ./src/index.js with is the entry point, add more source files in the src folder
