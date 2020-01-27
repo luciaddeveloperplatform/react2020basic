@@ -6,7 +6,7 @@
  ESLint, Prettier
  If you want to use those features may want to have a look at https://github.com/luciaddevelopmentplatform/luciadria2020
 
-## Description this basic Webpack
+## Description
 This basic setup can deal with js, jsx, css, scss and multiple static files (eot|svg|ttf|woff|woff2|png|jpg)
 
 ## How to use.  
@@ -14,7 +14,7 @@ Simply download or clone this project from Github.
 Change directory to the location of the repository and install your npm dependencies.
 
 ## Javascript mode 
-Simply modify the ./src/index.js with is the entry point, add more source files in the src folder
+Simply edit the ./src/index.js to start coding
 
 ## React mode 
 If you prefer to use React simply rename the ./src/index.js to ./src/index.jsx and start coding.
@@ -23,7 +23,7 @@ If you prefer to use React simply rename the ./src/index.js to ./src/index.jsx a
 
 * npm start: Start development environment
 * npm run build: Build for production
-* npm run serve: Serve the production built
+* npm run serve: Serve the production built (after succesfully executing 'npm run build')
 
 ## Key functionality
 
