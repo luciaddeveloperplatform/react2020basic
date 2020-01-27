@@ -4,7 +4,7 @@
 
 ## It does NOT Include
  ESLint, Prettier
- This tools will be added on a separate project react2020lint
+ If you want to use those features may want to have a look at https://github.com/luciaddevelopmentplatform/luciadria2020
 
 ## Description this basic Webpack
 This basic setup can deal with js, jsx, css, scss and multiple static files (eot|svg|ttf|woff|woff2|png|jpg)
