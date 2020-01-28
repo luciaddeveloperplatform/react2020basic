@@ -4,7 +4,7 @@
 
 ## It does NOT Include
  ESLint, Prettier
- If you want to use those features may want to have a look at https://github.com/luciaddevelopmentplatform/luciadria2020
+ If you want to use those features may want to have a look at https://github.com/luciaddeveloperplatform/luciadria2020
 
 ## Description
 This basic setup can deal with js, jsx, css, scss and multiple static files (eot|svg|ttf|woff|woff2|png|jpg)
