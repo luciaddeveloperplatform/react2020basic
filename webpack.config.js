@@ -3,7 +3,7 @@ const glob = require('glob');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-
+const TerserPlugin = require('terser-webpack-plugin');
 
 const entries  = glob.sync('./src/index.js?');
 const mainEntry = entries.length > 0 ? entries[0] : './src/index.js';
@@ -24,6 +24,17 @@ module.exports = (env, argv) => {
                 warnings: false,
                 errors: true
             }
+        },
+        optimization: {
+            minimizer: [
+                new TerserPlugin({
+                    terserOptions: {
+                        compress: {
+                            unused: false
+                        }
+                    }
+                })
+            ]
         },
         entry: ['babel-polyfill', mainEntry],
         output: {
